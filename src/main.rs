@@ -22,8 +22,9 @@ fn main() {
             public_key: public_key.to_vec(),
             secret_key: secret_key.to_vec(),
         },
-        1,
-    ).unwrap();
+        1, // Can be used to create multiple accounts from a single keypair.
+    )
+    .unwrap();
 
     // Print out Wallet info.
     println!("Address: {}", wallet.address);
