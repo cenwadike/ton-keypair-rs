@@ -1,0 +1,10 @@
+[package]
+name = "ton-keypair"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+nacl = "0.5.3"
+rand = "0.8.5"
+tonlib = "0.17.6"
